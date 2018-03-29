@@ -1,0 +1,30 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "template express app",
+  "main": "bin/www",
+  "author": "David Bösiger",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "*",
+    "dev": "^0.1.3",
+    "express": "*",
+    "express-dot-engine": "^1.0.7",
+    "express-fileupload": "^0.4.0",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.32.6",
+    "sequelize-file": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.11.0"
+  }
+}
